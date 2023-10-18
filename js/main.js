@@ -12,17 +12,17 @@
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */ 
-   $(window).load(function() {
+//    $(window).load(function() {
 
-      // will first fade out the loading animation 
-    	$("#loader").fadeOut("fast", function(){
+//       // will first fade out the loading animation 
+//     	$("#loader").fadeOut("fast", function(){
 
-        // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(30).fadeOut("fast");
+//         // will fade out the whole DIV that covers the website.
+//         $("#preloader").delay(30).fadeOut("fast");
 
-      });       
+//       });       
 
-  	})
+//   	})
 
 
   	/*---------------------------------------------------- */
