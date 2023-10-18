@@ -15,10 +15,10 @@
    $(window).load(function() {
 
       // will first fade out the loading animation 
-    	$("#loader").fadeOut("slow", function(){
+    	$("#loader").fadeOut("fast", function(){
 
         // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(300).fadeOut("slow");
+        $("#preloader").delay(30).fadeOut("fast");
 
       });       
 
@@ -199,7 +199,7 @@
 
     	$('html, body').stop().animate({
        	'scrollTop': $target.offset().top
-      }, 800, 'swing', function () {
+      }, 400, 'swing', function () {
       	window.location.hash = target;
       });
 
